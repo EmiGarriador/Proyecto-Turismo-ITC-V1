@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "tw:build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: tw:build",
+			"detail": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+		}
+	]
+}

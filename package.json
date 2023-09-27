@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-turismo-itc",
+  "version": "1.0.0",
+  "description": "proyecto del curso de desarrollo web utilizando tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "turismo"
+  ],
+  "author": "Emiliano Garriador",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

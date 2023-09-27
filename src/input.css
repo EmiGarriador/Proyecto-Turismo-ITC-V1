@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply h-64 w-48 shadow-lg rounded-b-lg flex-none
+}
+
+.CardXl {
+    @apply w-full rounded-xl p-7 bg-cover bg-center shadow-md
+}
+
+.imgCard{
+    @apply h-4/6 w-full rounded-t-lg p-2
+}
+
+.card:nth-child(odd){
+    @apply bg-azul-itc rounded-t-md
+}
+
+.card:nth-child(even){
+    @apply bg-slate-200 rounded-t-md
+}
+
+
+.title{
+    @apply text-xl font-bold text-white
+}
+
+.textstyle{
+    @apply font-mono text-black
+}
+
+.T-pago{
+    @apply font-extrabold text-rojo-itc text-base
+}
+
+.B-pago{
+    @apply font-mono text-xs font-medium
+}
