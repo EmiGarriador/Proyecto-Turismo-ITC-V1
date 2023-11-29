@@ -7,7 +7,7 @@
 }
 
 .CardXl {
-    @apply w-full rounded-xl p-7 bg-cover bg-center shadow-md
+    @apply  w-full bg-red-50 rounded-xl p-7 bg-cover bg-center shadow-2xl border-8
 }
 
 .imgCard{

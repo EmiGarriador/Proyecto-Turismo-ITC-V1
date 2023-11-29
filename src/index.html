@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" class="h-screen">
 <head>
-      
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Montserrat:ital,wght@1,500&family=Outfit:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -152,34 +152,34 @@
     <!-- preview cards-->
 
     <section>
-        <section class="w-full flex space-y-5 flex-col items-center p-3 sm:grid sm:grid-cols-1 sm:p-4 sm:justify-center"> 
+        <section class="w-full flex space-y-5 flex-col items-center sm:grid sm:grid-cols-2 sm:p-4 sm:justify-center gap-5 columns-2xs"> 
             
-            <div class="CardXl sm:w-full bg-choele-choel bg-no-repeat bg-cover">
-                <h4 class="text-2xl font-extrabold text-slate-50">Choele Choel</h4>
+            <div class="CardXl sm:w-full bg-choele-choel w-full bg-no-repeat aspect-video">
+                <h4 class="text-5xl font-extrabold text-slate-50">Choele Choel</h4>
                 <p class="w-24 text-sm font-mono text-slate-50">Paisajes para enamorarse.</p>
     
                 <h4 class="text-3xl font-extrabold text-slate-50">Mendoza</h4>
                 <p class="w-full text-xl text-slate-50">Incluye alojamiento y 3 excursiones.</p>
             </div>
     
-            <div class="CardXl sm:w-full bg-cafayate bg-no-repeat bg-cover">
-                <h4 class="text-2xl font-extrabold text-slate-50">Cafayate</h4>
+            <div class="CardXl sm:w-full bg-cafayate bg-no-repeat bg-cover w-full aspect-video">
+                <h4 class="text-5xl font-extrabold text-slate-50">Cafayate</h4>
                 <p class="text-sm text-slate-50">Lugares de ensueños.</p>
     
                 <h4 class="text-3xl font-extrabold text-slate-50">Córdoba</h4>
                 <p class="w-full text-xl text-slate-50">4 días, 3 noches, para descubrir las sierras y su paz.</p>
             </div>
     
-            <div class="CardXl sm:w-full bg-calafate bg-no-repeat bg-cover">
-                <h4 class="text-2xl font-extrabold text-slate-50">Calafate</h4>
+            <div class="CardXl sm:w-full bg-calafate bg-no-repeat bg-cover w-full aspect-video">
+                <h4 class="text-5xl font-extrabold text-slate-50">Calafate</h4>
                 <p class="w-24 text-sm text-slate-50">Los glaciares a tu alcance.</p>
     
                 <h4 class="text-3xl font-extrabold text-slate-50">Puerto Madryn</h4>
                 <p class="w-full text-xl text-slate-50">3 días y 2 noches. Incluye clase de buceo para dos!</p>
             </div>
     
-            <div class="CardXl sm:w-full bg-bariloche bg-no-repeat bg-cover">
-                <h4 class="text-2xl font-extrabold text-slate-50">Bariloche</h4>
+            <div class="CardXl sm:w-full bg-bariloche bg-no-repeat bg-cover w-full aspect-video">
+                <h4 class="text-5xl font-extrabold text-slate-50">Bariloche</h4>
                 <p class="w-24 text-sm  text-slate-50">Monatañas, nieve y sol.</p>
     
                 <h4 class="text-3xl font-extrabold text-slate-50">Villa El Chocon</h4>
@@ -216,6 +216,9 @@
     <!-- fin de medios de pago-->
 
 
+
+    <!-- seccion nosotros-->
+ 
     <section class="p-5 bg-slate-100 ">
 
         <h6 class="text-rojo-itc text-lg text-center font-extrabold">Nosotros</h6>
@@ -229,22 +232,35 @@
 
     </section>
 
+    <!-- fin de nosotros-->
 
-    <section class="text-bold p-10 flex items-center bg-azul-itc ">
-        <p class="title px-5">Estas son nuestras redes sociales</p>
-        <nav class="flex space-x-10 ">
+    <!-- seccion redes-->
+
+
+    <section class=" bg-gray-400 ">
+        <p class="title px-5 text-center text-5xl">Estas son nuestras redes sociales</p>
+        <nav class="flex justify-around p-5 space-x-3">
             <a href="" target="">
-                <img src="/src/img/Instagram.png" alt="icono de instagram">
+                <img class="h-20 w-20" src="/src/img/Instagram color.png" alt="icono de instagram">
             </a>
 
             <a href="" target="">
-                <img src="/src/img/LinkedIn.png" alt="icono de linkedin">
+                <img class="h-20 w-20" src="/src/img/LinkedIn Color.png" alt="icono de linkedin">
             </a>
 
             <a href="" target="">
-                <img src="/src/img/Facebook.png" alt="icono de Facebook">
+                <img class="h-20 w-20" src="/src/img/Facebook.png" alt="icono de Facebook">
             </a>
+            <a href="" target="">
+                <img class="h-20 w-20" src="/src/img/twiter.png" alt="icono de Twitter">
+            </a>
+
         </nav>
-    </section>   
+    </section>
+    
+    <!-- fin de redes-->
+
+
 </body>
+<script src="index.js"></script>
 </html>
